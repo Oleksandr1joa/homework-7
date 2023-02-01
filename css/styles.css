@@ -395,9 +395,11 @@ justify-content: center;
 /*=======================/HEADER==========================*/
 /*=====================COMPONENTS========================*/
 /*============================MOBILE-HEADER===========================*/
-
-.main-head {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+/*=======================480==============================*/
+@media screen and (max-width:768px) {
+        .main-head {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero-m.jpg);
     background-size: cover;
     background-color: #2E2F42;
     justify-content: center;
@@ -405,6 +407,35 @@ display: flex;
     max-width: 100%;
     height: auto;
 }
+}
+/*=======================768==============================*/
+@media screen and (min-width:768px) {
+        .main-head {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero-p.jpg);
+    background-size: cover;
+    background-color: #2E2F42;
+    justify-content: center;
+display: flex;
+    max-width: 100%;
+    height: auto;
+}
+}
+/*=======================1200==============================*/
+@media screen and (min-width:1200px) {
+    .main-head {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    background-size: cover;
+    background-color: #2E2F42;
+    justify-content: center;
+display: flex;
+    max-width: 100%;
+    height: auto;
+}
+}
+
+
 .main-head-position {
     text-align: center;
 }
