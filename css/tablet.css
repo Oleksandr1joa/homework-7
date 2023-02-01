@@ -85,16 +85,11 @@ color: #2E2F42;
 .list-bord {
     display: flex;
 }
-.container-list-size {
-    width: 1768px;
-}
+
 .container-list {
     padding-top:  96px;
 }
-.list-size {
-    width: 356px;
-    gap: 24px;
-}
+
 .primari-popular-text {
     font-weight: 500;
 font-size: 16px;
@@ -113,7 +108,9 @@ color: #434455;
 }
 
 .list-size {
-    width: calc((100%-30px) / 2);
+    width: 356px;
+    gap: 24px;
+    width: calc((100% - 30px) / 2);
 }
 
 }
