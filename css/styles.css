@@ -51,13 +51,13 @@ body {
 .primari-font-logo {
     font-family: var(--primari-font-logo);
 }
-.primari-popular-text {
+/* .primari-popular-text {
     font-weight: var(--primari-font-weight-low);
     font-size: var(--primari-font-size);
     line-height: var(--primari-font-heyght);
     letter-spacing: var(--primari-font-spacing);
     color: #434455;
-}
+} */
 .position-text-center {
     text-align: center;
 }
@@ -94,7 +94,7 @@ body {
 }
 /*============================HEADER===========================*/
 /*============================MOBILE-HEADER===========================*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .menu-item {
     display: none;
 }
@@ -197,9 +197,6 @@ margin-bottom: 80px;
     justify-content: space-between;
     margin-right: 60px;
 }
-/* .mobile-social-list-item:not(:first-child) {
-    margin-left: 56px;
-} */
 .mobile-menu-container {
     position: relative;
     padding-bottom: 40px;
@@ -224,7 +221,7 @@ background: #4D5AE5;
 fill: #FFFFFF;
 transition: 250ms;
 } 
-}
+} */
 .no-scroll {
     overflow: hidden;
 }
@@ -240,7 +237,7 @@ transition: 250ms;
     padding-bottom: 24px;
 }
 /*============================768===========================*/
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     .mobile-menu {
     display: none;
     }
@@ -273,9 +270,9 @@ border-bottom: 1px solid #E7E9FC;
 .mobil-contact-mail {
     margin-top: 4px;
 }
-}
+} */
 /*============================1200===========================*/
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
 
 .header { 
     display: flex;
@@ -295,7 +292,7 @@ border-bottom: 1px solid #E7E9FC;
     display: flex;
     gap: 40px;
 }
-}
+} */
 
 /*============================MOBILE-HEADER===========================*/
 
@@ -340,7 +337,7 @@ border-radius: 2px;
 }
 /*============================MOBILE-HEADER===========================*/
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .hero {
         font-style: normal;
 font-weight: 700;
@@ -392,14 +389,14 @@ justify-content: center;
     padding-top: 188px;
     padding-bottom: 188px;
 } 
-}
+} */
 
 
 /*=======================/HEADER==========================*/
 /*=====================COMPONENTS========================*/
 /*============================MOBILE-HEADER===========================*/
 /*=======================480==============================*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
         .main-head {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), url(../images/hero-m.jpg);
@@ -419,9 +416,9 @@ display: flex;
     }
 }
 
-}
+} */
 /*=======================768==============================*/
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
         .main-head {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), url(../images/hero-p.jpg);
@@ -441,9 +438,9 @@ display: flex;
     }
 }
 
-}
+} */
 /*=======================1200==============================*/
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     .main-head {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
@@ -466,23 +463,26 @@ display: flex;
 
 .main-head-position {
     text-align: center;
-}
+} */
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
-.list-solution {
+/* .list-solution {
     font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
     font-weight:var(--primari-font-weight);
     color: #2E2F42;
-}
-.container-list-size {
+} */
+/* .container-list-size {
     width: 1128px;
-}
-.list-size {
+} */
+/* .container-list {
+    padding-top:  120px;
+} */
+/* .list-size {
     width: 264px;
     gap: 24px;
-}
+} */
 .icon-list-border {
     display: flex;
     justify-content: center;
@@ -512,19 +512,19 @@ border-radius: 4px;
 /*=====================/DESCRIPTION========================*/
 /*=======================MAIN==============================*/
 /*=======================480==============================*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .work-scroll-item {
         display: none;
     }
-}
+} */
 /*=======================768==============================*/
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     .work-scroll-item {
         display: none;
 }
-}
+} */
 /*=======================1200==============================*/
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     .work-scroll-item {
         display:block;
         justify-content: center;
@@ -555,17 +555,9 @@ text-transform: capitalize;
     gap: 24px;
     
 }
-}
+} */
 
-.container-list {
-    padding-top:  120px;
-}
 
-.work-scroll {
-    padding-top:  120px;
-    padding-bottom: 120px;
-    
-}
 
 /* .list-bord-scroll {
     margin-top: 72px;
@@ -576,6 +568,13 @@ border-radius: 0px 0px 4px 4px;
 .con-box {
 padding-top:  32px;
 padding-bottom: 32px;
+}
+
+
+.work-scroll {
+    padding-top:  120px;
+    padding-bottom: 120px;
+    
 }
 /* .job-illumination {
     font-size: 36px;
@@ -828,6 +827,7 @@ padding-top:  32px;
     padding-left: 15px;
     padding-right: 15px;
 } */
+/*=====================================container=================================*/
 /* .container {
     width: 100%;
     margin-left: 15px;
@@ -835,23 +835,29 @@ padding-top:  32px;
     padding: 0;
     
 } */
-@media screen and (min-width: 480px) {
+/*========================================container==============================*/
+/* @media screen and (min-width: 480px) {
     .container {
     width: 428px;
     padding-left: auto;
     padding-right: auto;
     width: 100%;
-    }}
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
     width: 768px;
-    }}
+    }
+}
+
     @media screen and (min-width: 1200px) {
     .container {
     width: 1158px;
     margin-left: 15px;
     margin-right: 15px;
-    }}
+    }
+} */
 
 /*======================/SIZE LIST=========================*/
 
