@@ -462,6 +462,8 @@ border-radius: 4px;
 @media screen and (min-width:1200px) {
     .work-scroll-item {
         display:block;
+        justify-content: center;
+        align-items: center;
 } 
 .work-scroll-img  {
     padding-top:  120px;
