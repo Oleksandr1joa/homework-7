@@ -112,7 +112,7 @@ color: #434455;
     display: none;
 }
 
-.section .list-size {
+.list-size {
     width: calc((100%-30px) / 2);
 }
 
