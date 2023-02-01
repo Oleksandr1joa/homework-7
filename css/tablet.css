@@ -112,8 +112,8 @@ color: #434455;
     display: none;
 }
 
-.description-list-size {
-    width: calc((100%-30px)/2);
+.section .list-size {
+    width: calc((100%-30px) / 2);
 }
 
 }
